@@ -2,13 +2,30 @@ package com.sada.kafkajava.kafkasimpleproducer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.apache.kafka.clients.consumer.*;
+import java.util.Properties;
+import java.util.Arrays;
+import java.time.Duration;
 
 @SpringBootApplication
 public class KafkaSimpleProducerApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(KafkaSimpleProducerApplication.class, args);
-		System.out.println("hello word!");
-	}
+		Properties props = new Properties();
+		props.setProperty("bootstrap.servers", "localhost:9092");
+		props.setProperty("group.id", "my-group");
+		props.setProperty("enable.auto.commit", "true");
+		props.setProperty("auto.commit.interval.ms", "1000");
+		props.setProperty("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
+		props.setProperty("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
+		KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
+		consumer.subscribe(Arrays.asList("inventory_purchases"));
+		while (true) {
+			ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
+			for (ConsumerRecord<String, String> record : records) {
+				System.out.printf("offset = %d, key = %s, value = %s%n", record.offset(), record.key(), record.value());
+			}
 
+		}
+	}
 }
