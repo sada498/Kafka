@@ -27,5 +27,5 @@ test {
 	useJUnitPlatform()
 }
 application {
-	mainClassName = 'com/sada/kafkajava/kafkasimpleproducer/KafkaSimpleProducerApplication'
+	mainClassName = 'com.sada.kafkajava.kafkasimpleproducer.KafkaSimpleProducerApplication'
 }

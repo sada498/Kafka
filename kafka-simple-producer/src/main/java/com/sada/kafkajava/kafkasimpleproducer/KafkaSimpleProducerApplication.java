@@ -3,7 +3,7 @@ package com.sada.kafkajava.kafkasimpleproducer;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sada.kafkajava.kafkasimpleproducer.model.CityTemp;
-import com.sun.jmx.snmp.Timestamp;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.apache.kafka.clients.producer.*;
@@ -57,9 +57,6 @@ public class KafkaSimpleProducerApplication {
 			cityTemp.setTemp(temp.get(randomTemp));
 
 			String value = mapper.writeValueAsString(cityTemp);
-
-			Timestamp timestamp=new Timestamp();
-			System.out.println(timestamp);
 
 
 			producer.send(new ProducerRecord<String,String >("AU-weather-report","Australia", value));

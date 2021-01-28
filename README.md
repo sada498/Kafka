@@ -34,3 +34,18 @@
 ## 4. change directory to run an application
      cd Kafka/kafka-simple-producer
     ./gradlew run
+ > Note: If have problem with  *./gradlew: command not found*
+
+    chmod +x gradlew
+    ./gradlew run
+    
+## 5. Check the kafka topic by using shell command
+    kafka-topics --list --zookeeper localhost:2181
+    
+![]()
+
+## 6. check the kafka producer data by using Kafka consumer API command line
+    kafka-console-consumer --bootstrap-server localhost:9092 --topic AU-weather-report --from-beginning
+ ![]()
+ 
+ Done! :)
