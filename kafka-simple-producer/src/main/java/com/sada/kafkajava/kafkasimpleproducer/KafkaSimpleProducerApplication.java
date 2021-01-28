@@ -56,16 +56,10 @@ public class KafkaSimpleProducerApplication {
 			int randomTemp=random.nextInt(temp.size());
 			cityTemp.setTemp(temp.get(randomTemp));
 
-
-
-				String value = mapper.writeValueAsString(cityTemp);
-
-
+			String value = mapper.writeValueAsString(cityTemp);
 
 			Timestamp timestamp=new Timestamp();
 			System.out.println(timestamp);
-
-
 
 
 			producer.send(new ProducerRecord<String,String >("AU-weather-report","Australia", value));
