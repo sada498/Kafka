@@ -1,5 +1,5 @@
 plugins {
-    id 'java'
+    //id 'java'
     id 'application'
 }
 
@@ -16,10 +16,14 @@ dependencies {
     implementation 'org.apache.kafka:kafka-clients:2.2.1'
     testImplementation 'junit:junit:4.12'
 }
-application {
-    mainClassName = 'com.sada.KafkaStreaming.Streaming'
-}
+//application {
+//    mainClassName = 'com.sada.KafkaStreaming.Streaming'
+//}
 //task(runStreams, dependsOn: 'classes', type: JavaExec) {
 //    main = 'com.sada.KafkaStreaming.Streaming'
+//    classpath = sourceSets.main.runtimeClasspath
+//}
+//task(runStreams, dependsOn: 'classes', type: JavaExec) {
+//    main = 'com.sada.KafkaStreaming.StatelessTransformations'
 //    classpath = sourceSets.main.runtimeClasspath
 //}

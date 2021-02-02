@@ -5,32 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b1fb15e-d8e2-4fec-b8c7-341d3bacb56c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/artifacts/Streaming_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Spring_Web_Services_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/Streaming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/stateless.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sada/KafkaStreaming/StatelessTransformations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sada/KafkaStreaming/Streaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sada/KafkaStreaming/Streaming.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +26,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -77,7 +69,20 @@
       <recent name="C:\Users\X270\OneDrive\Apache Kafka\Kafka\Streaming" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StatelessTransformations">
+    <configuration name="StatelessTransformations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sada.KafkaStreaming.StatelessTransformations" />
+      <module name="Streaming.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sada.KafkaStreaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Streaming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sada.KafkaStreaming.Streaming" />
       <module name="Streaming.main" />
@@ -104,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StatelessTransformations" />
         <item itemvalue="Application.Streaming" />
       </list>
     </recent_temporary>
@@ -116,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612237643259</updated>
-      <workItem from="1612237645569" duration="2696000" />
+      <workItem from="1612237645569" duration="6157000" />
     </task>
     <task id="LOCAL-00001" summary="streaming console">
       <created>1612239981857</created>
@@ -125,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612239981857</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="streaming console v.01">
+      <created>1612240544589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612240544589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,28 +147,29 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="streaming console" />
-    <option name="LAST_COMMIT_MESSAGE" value="streaming console" />
+    <MESSAGE value="streaming console v.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="streaming console v.01" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="519" y="108" key="CommitChangelistDialog2" timestamp="1612239979740">
+    <state x="948" y="191" key="CommitChangelistDialog2" timestamp="1612240542938">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="519" y="108" key="CommitChangelistDialog2/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612239979740" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1612239839286">
+    <state x="948" y="191" key="CommitChangelistDialog2/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612240542938" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1612243702910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612239839286" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1612239839286">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612243702910" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1612243702910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612239839286" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1612239839286">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612243702910" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1612243702910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612239839286" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1612239839286">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612243702910" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1612243702910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612239839286" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612243702910" />
   </component>
 </project>
