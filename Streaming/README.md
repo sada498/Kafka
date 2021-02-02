@@ -26,7 +26,7 @@
 ## 3. Start console consumer for *stateless-transformations-Accounting-purchase-data-output-topic*
     .\bin\windows\kafka-console-consumer --bootstrap-server localhost:9092 --topic stateless-transformations-Accounting-purchase-data-output-topic --property print.key=true
 ## 4. Testing
-![]()
+![](https://github.com/sada498/Kafka/blob/main/Streaming/img/stateless.JPG)
 </p>
 </details> 
 
