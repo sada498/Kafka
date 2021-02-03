@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b1fb15e-d8e2-4fec-b8c7-341d3bacb56c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sada/KafkaStreaming/Aggregations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2b1fb15e-d8e2-4fec-b8c7-341d3bacb56c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612237643259</updated>
-      <workItem from="1612237645569" duration="7657000" />
+      <workItem from="1612237645569" duration="7832000" />
     </task>
     <task id="LOCAL-00001" summary="streaming console">
       <created>1612239981857</created>
@@ -154,21 +151,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="948" y="191" key="CommitChangelistDialog2/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612244040479" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1612243971604">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1612256843843">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612243971604" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1612243971603">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612256843843" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1612256843843">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612243971603" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1612243971603">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612256843843" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1612256843842">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612243971603" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1612243971604">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612256843842" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1612256843843">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612243971604" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/1227.1080.1366.768/1920.-13.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1612256843843" />
   </component>
 </project>
